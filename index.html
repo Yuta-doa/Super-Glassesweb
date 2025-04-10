@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動画係マイクラサーバー - YouTubeチャンネル宣伝サイト</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        header img {
+            height: 80px;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+        header p {
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        .latest-video {
+            text-align: center;
+            margin: 40px 0;
+        }
+        .latest-video iframe {
+            width: 80%;
+            max-width: 800px;
+            height: 450px;
+            border: none;
+        }
+        .latest-video button {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .latest-video button:hover {
+            background-color: white;
+            color: red;
+            border: 2px solid red;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1f1f1f;
+            color: #888;
+            font-size: 0.9rem;
+        }
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="チャンネルロゴ">
+        <h1>動画係マイクラサーバー - YouTubeチャンネル</h1>
+        <p>チャンネル登録して最新情報をチェック！</p>
+    </header>
+
+    <div class="container">
+        <!-- 最新動画セクション -->
+        <div class="latest-video">
+            <h2>最新の動画をチェック！</h2>
+            <iframe src="https://www.youtube.com/embed/YOUR_LATEST_VIDEO_ID" allowfullscreen></iframe>
+            <br>
+            <button onclick="window.open('https://www.youtube.com/channel/YOUR_CHANNEL_ID', '_blank')">
+                チャンネル登録はこちら！
+            </button>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 動画係チャンネル | <a href="#">プライバシーポリシー</a></p>
+    </footer>
+</body>
+</html>
