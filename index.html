@@ -28,10 +28,29 @@
             font-size: 1.2rem;
             margin: 0;
         }
+        nav {
+            background-color: #282828;
+            text-align: center;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
         .container {
             max-width: 1200px;
             margin: 20px auto;
             padding: 0 20px;
+        }
+        .about-channel {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c2c2c;
         }
         .latest-video {
             text-align: center;
@@ -77,13 +96,27 @@
 <body>
     <header>
         <img src="logo.png" alt="チャンネルロゴ">
-        <h1メガネのゲーム実況チャンネル公式WEBサイト</h1>
+        <h1>メガネのゲーム実況チャンネル公式WEBサイト</h1>
         <p>チャンネル登録して最新情報をチェック！</p>
     </header>
 
+    <!-- ナビゲーションバー -->
+    <nav>
+        <a href="#about">チャンネルについて</a>
+        <a href="#latest-video">最新動画</a>
+        <a href="https://www.youtube.com/@Super-Glasses-v9q" target="_blank">YouTubeチャンネル</a>
+    </nav>
+
+    <!-- チャンネルについてセクション -->
+    <section id="about" class="about-channel">
+        <h2>チャンネルについて</h2>
+        <p>メガネのゲーム実況チャンネルでは、最新のゲームニュースやプレイ動画をお届けしています。初心者からベテランまで、すべてのゲーマーが楽しめるコンテンツを目指しています！</p>
+        <p>ゲーム業界のトレンドや、注目のゲームタイトルに関するレビューも公開中！</p>
+    </section>
+
     <div class="container">
         <!-- 最新動画セクション -->
-        <div class="latest-video">
+        <div id="latest-video" class="latest-video">
             <h2>最新の動画をチェック！</h2>
             <iframe width="560" height="315" src="https://www.youtube.com/embed/y48x9DYjEg8?si=S0Xd2cUNhruqyb8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <br>
@@ -94,7 +127,7 @@
     </div>
 
     <footer>
-        <p>© 2025 メガネのゲーム実況チャンネル | 
+        <p>© 2025 メガネのゲーム実況チャンネル</p>
     </footer>
 </body>
 </html>
