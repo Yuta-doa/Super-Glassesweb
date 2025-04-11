@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>メガネのゲーム実況チャンネル公式サイト</title>
+  <title>メガネのゲーム実況チャンネル公式WEBサイト</title>
   <style>
     body {
       margin: 0;
@@ -53,12 +53,10 @@
       max-width: 1200px;
       margin: 20px auto;
       padding: 0 20px;
-      display: flex;
-      gap: 20px;
     }
-    .latest-video, .past-video {
-      flex: 1;
+    .video-section {
       text-align: center;
+      margin-bottom: 40px;
     }
     iframe {
       width: 80%;
@@ -107,14 +105,15 @@
   </header>
 
   <nav>
-    <a href='/about' target='_blank'>チャンネルについて</a>
+    <a href="/about" target="_blank">チャンネルについて</a>
     <a href="#latest-video">最新動画</a>
+    <a href="#past-videos">過去動画</a>
     <a href="https://www.youtube.com/@Super-Glasses-v9q" target="_blank">YouTubeチャンネル</a>
   </nav>
 
   <div class="container">
     <!-- 最新動画セクション -->
-    <div id="latest-video" class="latest-video">
+    <div id="latest-video" class="video-section">
       <h2>最新の動画をチェック！</h2>
       <iframe src="https://www.youtube.com/embed/y48x9DYjEg8?si=S0Xd2cUNhruqyb8Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <br>
@@ -124,8 +123,7 @@
     </div>
 
     <!-- 過去動画セクション -->
-    <div id="past-videos" class="past-video">
-      <h2>過去の動画をチェック！</h2>
+    <div id="past-videos" class="video-section">
       <iframe src="https://www.youtube.com/embed/sample_previous_video" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <br>
       <button onclick="window.open('https://www.youtube.com/@Super-Glasses-v9q', '_blank')">
