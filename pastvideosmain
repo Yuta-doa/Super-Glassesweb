@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>過去動画一覧 - メガネのゲーム実況チャンネル公式サイト</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #4caf50;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+    nav {
+      text-align: center;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #4caf50;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.2rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .video-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      text-align: center;
+    }
+    .video-card iframe {
+      width: 100%;
+      height: 180px;
+      border: none;
+    }
+    .video-card p {
+      margin: 15px;
+      font-size: 1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #333;
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: #4caf50;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>過去動画一覧 - pastvideosmaim</h1>
+  </header>
+
+  <nav>
+    <a href="/" target="_self">ホーム</a>
+    <a href="https://www.youtube.com/@Super-Glasses-v9q" target="_blank">YouTubeチャンネル</a>
+  </nav>
+
+  <div class="container">
+    <!-- 動画カード例 -->
+    <div class="video-card">
+      <iframe width="800" height="450" src="https://www.youtube.com/embed/y48x9DYjEg8" title="街を作ろうマイクラの森パート1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <p街を作ろうマイクラの森パート1</p>
+    </div>
+    <!-- 必要に応じて追加する -->
+  <footer>
+    <p>© 2025 pastvideosmaim</p>
+  </footer>
+</body>
+</html>
