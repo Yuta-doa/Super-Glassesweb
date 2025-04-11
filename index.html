@@ -17,7 +17,6 @@
       background-color: #1f1f1f;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     }
-    /* ヘッダー内のタイトルと画像を横に配置 */
     .header-content {
       display: flex;
       align-items: center;
@@ -25,7 +24,7 @@
     }
     .header-content h1 {
       font-size: 2.5rem;
-      margin: 0 20px 0 0; /* タイトルの右にスペースを追加 */
+      margin: 0 20px 0 0;
     }
     .channel-logo {
       height: 80px;
@@ -54,18 +53,20 @@
       max-width: 1200px;
       margin: 20px auto;
       padding: 0 20px;
+      display: flex;
+      gap: 20px;
     }
-    .latest-video {
+    .latest-video, .past-video {
+      flex: 1;
       text-align: center;
-      margin: 40px 0;
     }
-    .latest-video iframe {
+    iframe {
       width: 80%;
       max-width: 800px;
       height: 450px;
       border: none;
     }
-    .latest-video button {
+    button {
       background-color: red;
       color: white;
       padding: 10px 20px;
@@ -75,7 +76,7 @@
       cursor: pointer;
       margin-top: 20px;
     }
-    .latest-video button:hover {
+    button:hover {
       background-color: white;
       color: red;
       border: 2px solid red;
@@ -100,15 +101,13 @@
   <header>
     <div class="header-content">
       <h1>メガネのゲーム実況チャンネル公式WEBサイト</h1>
-      <!-- タイトルの右側に MicrosoftCopilot風の画像を配置 -->
       <img class="channel-logo" src="https://superglassesweb.netlify.app/channels4_profile.jpg" alt="チャンネルロゴ">
     </div>
     <p>チャンネル登録して最新情報をチェック！</p>
   </header>
 
-  <!-- ナビゲーションバー -->
   <nav>
-    <a href="about.html" target="_blank">チャンネルについて</a>
+    <a href='/about' target='_blank'>チャンネルについて</a>
     <a href="#latest-video">最新動画</a>
     <a href="https://www.youtube.com/@Super-Glasses-v9q" target="_blank">YouTubeチャンネル</a>
   </nav>
@@ -117,10 +116,20 @@
     <!-- 最新動画セクション -->
     <div id="latest-video" class="latest-video">
       <h2>最新の動画をチェック！</h2>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/y48x9DYjEg8?si=S0Xd2cUNhruqyb8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/y48x9DYjEg8?si=S0Xd2cUNhruqyb8Q" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <br>
       <button onclick="window.open('https://www.youtube.com/@Super-Glasses-v9q', '_blank')">
         チャンネル登録はこちら！
+      </button>
+    </div>
+
+    <!-- 過去動画セクション -->
+    <div id="past-videos" class="past-video">
+      <h2>過去の動画をチェック！</h2>
+      <iframe src="https://www.youtube.com/embed/sample_previous_video" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <br>
+      <button onclick="window.open('https://www.youtube.com/@Super-Glasses-v9q', '_blank')">
+        その他の動画はこちら！
       </button>
     </div>
   </div>
