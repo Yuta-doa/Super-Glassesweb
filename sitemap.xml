@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://superglassesweb.netlify.app/</loc>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <sitemap>
+        <loc>https://site1.netlify.app/sitemap.xml</loc>
         <lastmod>2025-05-03</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
-        
-        <loc>https://superglassesweb.netlify.app/pastvideosmain</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://site2.netlify.app/sitemap.xml</loc>
         <lastmod>2025-05-03</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        
-        <loc>https://superglassesweb.netlify.app/news</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://site3.netlify.app/sitemap.xml</loc>
         <lastmod>2025-05-03</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-        
-        <loc>https://superglassesweb.netlify.app/about</loc>
+    </sitemap>
+    <sitemap>
+        <loc>https://site4.netlify.app/sitemap.xml</loc>
         <lastmod>2025-05-03</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.8</priority>
-    </url>
-</urlset>
+    </sitemap>
+</sitemapindex>
