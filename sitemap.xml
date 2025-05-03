@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <sitemap>
-        <loc>https://site1.netlify.app/sitemap.xml</loc>
-        <lastmod>2025-05-03</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://site2.netlify.app/sitemap.xml</loc>
-        <lastmod>2025-05-03</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://site3.netlify.app/sitemap.xml</loc>
-        <lastmod>2025-05-03</lastmod>
-    </sitemap>
-    <sitemap>
-        <loc>https://site4.netlify.app/sitemap.xml</loc>
+        <loc>https://superglassesweb.netlify.app/sitemap1.xml</loc>
         <lastmod>2025-05-03</lastmod>
     </sitemap>
 </sitemapindex>
