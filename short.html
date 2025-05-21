@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>メガネのゆっくりch公式WEBサイト</title>
-    <!-- ページの説明 -->
-  <meta name="description" content="このサイトではYouTudeチャンネルメガネのゆっくりチャンネルの公式サイトです！">
+  <!-- ページの説明 -->
+  <meta name="description" content="このサイトではYouTubeチャンネル メガネのゆっくりチャンネルの公式サイトです！">
   <!-- 検索キーワード -->
   <meta name="keywords" content="メガネのゲーム, メガネ, ゆっくりチャンネル, メガネのゆっくりチャンネル, メガネのLIVE・歌ってみたチャンネル, メガネのLIVE歌ってみたチャンネル, なぎさっさ, めがね,ゆっくり,">
   <!-- サイト運営者情報 -->
@@ -65,9 +65,9 @@
       margin-bottom: 40px;
     }
     iframe {
-      width: 80%;
-      max-width: 800px;
-      height: 450px;
+      width: 100%;
+      max-width: 450px;
+      aspect-ratio: 9 / 16; /* ここで比率を指定 */
       border: none;
     }
     footer {
@@ -96,13 +96,13 @@
   </header>
 
   <nav>
-    <a href="/index.html">Home</a>
-    <a href="https://superglassesweb.netlify.app/pastvideosmain.html" target="_self">過去動画</a>
-    <a href="/short.html" target="_self">shorts</a>
-    <a href="/news.html">おしらせ</a>
+    <a href='/'>Home</a>
+    <a href='https://superglassesweb.netlify.app/pastvideosmain' target='_self'>過去動画</a>
+    <a href='/short' target='_self'>shorts</a>
+    <a href='/news'>おしらせ</a>
     <a href="/about" target="_self">チャンネルについて</a>
     <a href="https://www.youtube.com/@Super-Glasses-vcl" target="_blank">YouTubeチャンネル</a>
-    <a href="https://x.com/super_glassesv9">X（旧Twwter）</a>
+    <a href="https://x.com/super_glassesv9">X（旧Twitter）</a>
     <a href="https://subsuperglassesweb.netlify.app/" target="_blank">サブチャンネル</a>
   </nav>
 
@@ -110,19 +110,20 @@
     <!-- 過去動画セクション -->
     <div class="video-section">
       <h1>過去動画はこちら！</h1>
-    <div class="video-section">
-      <h2>大好きなあの子がデレる瞬間</h2>
-      <iframe width="471" height="837" src="https://www.youtube.com/embed/Ii6dOaadhWg" title="霊夢にマイクラやらせてみた結果" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <div class="video-section">
-      <h2>街を作ろうマイクラの森パート2</h2>
-      <iframe width="471" height="837" src="https://www.youtube.com/embed/CT28IQaP1_c" title="これをあたおかとよぶ＃ウルトラマン" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
+      <div class="video-section">
+        <h2>大好きなあの子がデレる瞬間</h2>
+        <iframe src="https://www.youtube.com/embed/Ii6dOaadhWg" title="霊夢にマイクラやらせてみた結果" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="video-section">
+        <h2>街を作ろうマイクラの森パート2</h2>
+        <iframe src="https://www.youtube.com/embed/CT28IQaP1_c" title="これをあたおかとよぶ＃ウルトラマン" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
       <!-- 必要に応じて動画を追加 -->
+    </div>
   </div>
 
   <footer>
-    <p>© 2025 メガネのゆっくりチャンネル</p>
+    <p>© 2025 メガネのゆっくりch</p>
   </footer>
 </body>
 </html>
