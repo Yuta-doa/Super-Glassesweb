@@ -1,6 +1,6 @@
 # 1. ブラウザの優先言語が「日本語 (ja)」の場合の設定
 [[redirects]]
-  from = "/"
+  from = "/*"
   to = "/302"
   status = 302
   conditions = { Language = ["ja"] }
