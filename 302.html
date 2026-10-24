@@ -24,7 +24,7 @@
   .steps li { position:relative; padding:10px 0 10px 17px; border-bottom:1px solid #e5e9ee; }
   .steps li:last-child { border-bottom:0; padding-bottom:0; }
   .steps li::before { content:""; position:absolute; left:0; top:18px; width:9px; height:9px; border-radius:50%; background:#adb5bd; }
-  .steps li.current::before { background:#d9a300; }
+  .steps li.current::before { background:#00BC48; }
   .step-title { display:block; font-weight:700; }
   .step-note { display:block; color:var(--muted); font-size:12px; }
   .service { margin-top:12px; padding:16px 18px; background:var(--panel); border:1px solid var(--line); border-radius:8px; }
@@ -45,11 +45,11 @@
   <section class="panel" aria-labelledby="general-progress">
     <h2 id="general-progress">現在ご覧のサイトのメンテナンスの進捗</h2>
     <span class="badge">安全性の確認中</span>
-    <p>現在、サービスを安全にご利用いただける状態にするため、必要な確認と動作テストを進めています。</p>
+    <p>このサイトはサービスを再開しました。</p>
     <ul class="steps">
-      <li class="current"><span class="step-title">安全性の確認</span><span class="step-note">現在対応中</span></li>
+      <span class="step-title">安全性の確認</span><span class="step-note">現在対応中</span></li>
       <li><span class="step-title">動作確認</span><span class="step-note">安全性の確認後に実施</span></li>
-      <li><span class="step-title">サービス再開</span><span class="step-note">確認が完了してからお知らせします</span></li>
+      <li class="current"><li><span class="step-title">サービス再開</span><span class="step-note">確認が完了してからお知らせします</span></li>
     </ul>
   </section>
 
