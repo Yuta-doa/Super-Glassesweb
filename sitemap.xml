@@ -21,4 +21,8 @@
     <loc>https://superglassesweb.netlify.app/video/</loc>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://superglassesweb.netlify.app/302</loc>
+    <priority>0.8</priority>
+  </url>
 </urlset>
